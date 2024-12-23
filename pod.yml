@@ -1,0 +1,10 @@
+apiVersion: v1           
+kind: Pod                
+metadata:                
+ name: pod10             
+spec:                    
+ containers:             
+ - name: xyz             
+   image: nginx
+   imagePullPolicy: IfNotPresent
+
